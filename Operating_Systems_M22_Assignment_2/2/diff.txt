@@ -1,0 +1,32 @@
+Only in linux-6.0.9.org: 2D_syscall
+Common subdirectories: linux-6.0.9/Documentation and linux-6.0.9.org/Documentation
+Common subdirectories: linux-6.0.9/LICENSES and linux-6.0.9.org/LICENSES
+diff linux-6.0.9/Makefile linux-6.0.9.org/Makefile
+1104c1104
+< core-y			+= kernel/ certs/ mm/ fs/ ipc/ security/ crypto/
+---
+> core-y			+= kernel/ certs/ mm/ fs/ ipc/ security/ crypto/ twodcopy/
+Common subdirectories: linux-6.0.9/arch and linux-6.0.9.org/arch
+Common subdirectories: linux-6.0.9/block and linux-6.0.9.org/block
+Common subdirectories: linux-6.0.9/certs and linux-6.0.9.org/certs
+Only in linux-6.0.9.org: config-rev-9-gold
+Common subdirectories: linux-6.0.9/crypto and linux-6.0.9.org/crypto
+Common subdirectories: linux-6.0.9/drivers and linux-6.0.9.org/drivers
+Common subdirectories: linux-6.0.9/fs and linux-6.0.9.org/fs
+Common subdirectories: linux-6.0.9/include and linux-6.0.9.org/include
+Common subdirectories: linux-6.0.9/init and linux-6.0.9.org/init
+Common subdirectories: linux-6.0.9/io_uring and linux-6.0.9.org/io_uring
+Common subdirectories: linux-6.0.9/ipc and linux-6.0.9.org/ipc
+Common subdirectories: linux-6.0.9/kernel and linux-6.0.9.org/kernel
+Common subdirectories: linux-6.0.9/lib and linux-6.0.9.org/lib
+Common subdirectories: linux-6.0.9/mm and linux-6.0.9.org/mm
+Common subdirectories: linux-6.0.9/net and linux-6.0.9.org/net
+Only in linux-6.0.9.org: p
+Common subdirectories: linux-6.0.9/samples and linux-6.0.9.org/samples
+Common subdirectories: linux-6.0.9/scripts and linux-6.0.9.org/scripts
+Common subdirectories: linux-6.0.9/security and linux-6.0.9.org/security
+Common subdirectories: linux-6.0.9/sound and linux-6.0.9.org/sound
+Common subdirectories: linux-6.0.9/tools and linux-6.0.9.org/tools
+Only in linux-6.0.9.org: twodcopy
+Common subdirectories: linux-6.0.9/usr and linux-6.0.9.org/usr
+Common subdirectories: linux-6.0.9/virt and linux-6.0.9.org/virt
